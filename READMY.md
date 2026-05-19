@@ -28,14 +28,20 @@ Cieľom práce je otestovať a porovnať vybrané NLP modely pri klasifikácii t
 ## Štruktúra repozitára
 
 ```text
-├── bert.ipynb                    # Trénovanie a testovanie modelu BERT
-├── xlm-roberta-base.ipynb         # Trénovanie a testovanie modelu XLM-RoBERTa
-├── deberta.ipynb                  # Trénovanie a testovanie modelu DeBERTa-v3
-├── t5-small.ipynb                 # Trénovanie a testovanie modelu T5-small
-├── Llama.ipynb                    # Trénovanie a testovanie modelu Llama-3.2-1B
-├── labeled_data.csv               # Dataset použitý v experimentálnej časti
-├── Systémová príručka.pdf         # Technická dokumentácia systému
-├── Používateľská príručka.pdf     # Návod na používanie riešenia
-└── README.md                      # Popis projektu
+├── models/
+│   ├── bert.ipynb                    # Trénovanie a testovanie modelu BERT
+│   ├── xlm-roberta-base.ipynb         # Trénovanie a testovanie modelu XLM-RoBERTa
+│   ├── deberta.ipynb                  # Trénovanie a testovanie modelu DeBERTa-v3
+│   ├── t5-small.ipynb                 # Trénovanie a testovanie modelu T5-small
+│   └── Llama.ipynb                    # Trénovanie a testovanie modelu Llama-3.2-1B
+│
+├── data/
+│   └── labeled_data.csv               # Dataset použitý v experimentálnej časti
+│
+├── docs/
+│   ├── Systémová príručka.pdf         # Technická dokumentácia systému
+│   └── Používateľská príručka.pdf     # Návod na používanie riešenia
+│
+└── README.md                          # Popis projektu
 
 
